@@ -1,7 +1,6 @@
-spring:
-  application:
-    db:
-      name: dbTest
-      scripts:
-        schema: classpath:scripts/schema.sql
-        data: classpath:scripts/data.sql
+application:
+  db:
+    name: dbTest
+    scripts:
+      schema: classpath:scripts/schema.sql
+      data: classpath:scripts/data.sql
